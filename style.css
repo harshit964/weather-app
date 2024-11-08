@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    height:100vh;
+    width:100%;
+    background: hsla(177, 87%, 79%, 1);
+
+background: linear-gradient(90deg, hsla(177, 87%, 79%, 1) 0%, hsla(235, 89%, 70%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(177, 87%, 79%, 1) 0%, hsla(235, 89%, 70%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(177, 87%, 79%, 1) 0%, hsla(235, 89%, 70%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9BF8F4", endColorstr="#6F7BF7", GradientType=1 );
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.card{
+    height:400px;
+    width:400px;
+    text-align: center;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.input{
+    /* margin-left: 50px; */
+    margin-top: 20px;
+    padding-left: 20px;
+    width:250px;
+    height:30px;
+    border-radius: 10px;
+    border:none;
+}
+.btn{
+    border: none;
+    border-radius: 50%;
+    height:35px;
+    width:35px;
+
+}
+h1{
+    margin-top: 25px;
+    font-size: 4rem;
+    color:white;
+}
+h2{
+    margin-top: 10px;
+    font-size: 2rem;
+    color: white;
+}
+.header{
+    margin-top: 30px;
+}
+.header-1{
+    margin-bottom: 20px;
+}
+p{
+    color:rgba(255, 255, 255, 0.949);
+    font-size: 1.5rem;
+}
+.sun{
+    position:absolute;
+    border-radius: 50%;
+    height:200px;
+    width:200px;
+    background-color: rgb(255, 191, 0);
+    box-shadow:
+    0 0 60px 30px orange,  /* inner white */
+    0 0 100px 60px #f0f, /* middle magenta */
+    0 0 140px 90px yellow;
+}
