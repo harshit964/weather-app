@@ -1,0 +1,12 @@
+{
+    "Version": "2012-10-23",
+    "Statement": [
+        {
+            "Sid": "PublicReadAccess",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::weather-web-app/*"
+        }
+    ]
+} 
